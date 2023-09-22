@@ -32,5 +32,5 @@ func main() {
 		return
 	}
 	script.GenFiles(dir+"\\data.xlsx", dir+"\\template.xlsx", dir+"\\"+output+"\\")
-	pkg.Notify("success")
+	fmt.Println("success")
 }
